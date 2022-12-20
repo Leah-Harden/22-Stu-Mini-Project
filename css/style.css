@@ -1,0 +1,35 @@
+header {
+    background-color: rgb(58, 100, 74);
+    color: white;
+    border-bottom: solid 10px peachpuff;
+}
+
+.aside {
+    position: relative;
+    display: inline;
+    text-align: right;
+    padding: 100px;
+
+}
+
+body {
+    text-align: center;
+}
+
+input {
+    text-align: center
+}
+
+.contact {
+
+    background-color: peachpuff;
+    border-top: solid 3px rgb(218, 173, 133);
+}
+
+.white {
+    color: white;
+}
+
+footer {
+    background-color: rgb(58, 100, 74);
+}
