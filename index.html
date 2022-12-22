@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
@@ -7,32 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <title>Website</title>
-    <header>
-        <p class="aside">GitHub</p>
-        <p class="aside">Portoilo</p>
-        <p class="aside">Contact</p>
-    </header>
+
 </head>
 
 <body>
-    <section class="center">
+    <header>
+        <nav class="text-right">
+            <ul>
+                <li> <a href="https://github.com/">Github</a></li>
+                <li> <a href="#">Portfolio</a></li>
+                <li> <a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="text-center">
         <h1>My New Website</h1>
         <img src="images/image-1.png" alt="this is alt text">
         <p>Lorem ipsum, sit amet consectetur adiposdfdsfa eilt.</p>
-    </section>
 
-    <section class="contact">
 
-        <h2>Contact Me</h2>
+        <section class="contact">
 
-        <div class="input">
-            <label for="text">Name:</label><input type="text">
-            <label for="text">Email:</label><input type="text">
-        </div>
-    </section>
-    <footer>
-        <p class="white"> &copy;2022 My Website Productions</p>
-    </footer>
+            <h2 class="text-center">Contact Me</h2>
+            <form>
+                <ul>
+                    <li>
+                        <label class="text-right" for="name">Name:</label>
+                        <input type="text" id="name" name="user-name">
+                    </li>
+                    <li>
+                        <label class="text-right" for="email">Email:</label>
+                        <input type="text" id="email" name="user-email">
+                    </li>
+                </ul>
+                <div class="text-center">
+                    <button type="submit">SEND</button>
+                </div>
+            </form>
+        </section>
+        </main>
+
+        <footer class="text-center">
+            © 2022 My New Website Productions
+        </footer>
 
 </body>
 

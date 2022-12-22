@@ -1,5 +1,7 @@
 header {
     background-color: rgb(58, 100, 74);
+
+    padding: 10px;
     color: white;
     border-bottom: solid 10px peachpuff;
 }
@@ -10,6 +12,7 @@ header {
     text-align: right;
     padding: 100px;
 
+
 }
 
 body {
@@ -17,7 +20,9 @@ body {
 }
 
 input {
-    text-align: center
+    text-align: center;
+    border: 5px solid rgb(218, 173, 133);
+
 }
 
 .contact {
@@ -32,4 +37,5 @@ input {
 
 footer {
     background-color: rgb(58, 100, 74);
+    height: 60px;
 }
